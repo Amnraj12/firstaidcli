@@ -1,0 +1,9 @@
+gradio
+groq
+geopy
+requests
+pydub
+SpeechRecognition
+gtts
+elevenlabs
+ffmpeg

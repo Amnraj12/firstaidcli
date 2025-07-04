@@ -28,7 +28,6 @@ text=input("For text enter 1 else put 2:")
 if text=="2":
     if os.path.exists(audio_path):
             os.remove(audio_path)
-            # logging.info(f"Removed existing audio file: {audio_path}")
             print("Removed existing audio file: patient_audio.mp3")
     record_audio(file_path=audio_path)
     if os.path.exists(audio_path):

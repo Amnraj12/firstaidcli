@@ -7,11 +7,10 @@ import requests
 
 def get_location():
     try:
-        # Use an API to fetch location based on IP address
+        # Using API to fetch location based on IP address
         response = requests.get("https://ipinfo.io")
         data = response.json()
         
-        # Extract latitude and longitude from the location
         location = data.get("loc", "").split(",")
         latitude = location[0] if len(location) > 0 else "Unknown"
         longitude = location[1] if len(location) > 1 else "Unknown"
@@ -57,7 +56,6 @@ Give the details of 10 nearest hospitals to my location, start with the nearest 
 """
 final_query=query1+location+query2
 
-# print(final_query)
 GROQ_API_KEY = os.environ.get('GROQ_API_KEY')
 def location_query(query,model):
     client= Groq()

@@ -22,14 +22,10 @@ def record_audio(file_path,timeout=20,phrase_time_limit=None):
     except Exception as e:
         logging.error(f"Error recording audio: {e}")
         return False
-# audio_path="patient_audio.mp3"   
 
-# record_audio(file_path=audio_path)
 
 
 from groq import Groq
-# GROQ_API_KEY=os.getenv("GROQ_API_KEY")
-# stt_model="whisper-large-v3"
 def transcribe_audio(audio_path,stt_model,GROQ_API_KEY,lang):    
     client=Groq(api_key=GROQ_API_KEY)
     audio_file=open(audio_path,"rb")

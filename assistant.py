@@ -1,7 +1,6 @@
 import os
 
 from gtts import gTTS
-# language = 'hi'
 
 def text_to_speech_with_gtts(text, language, output_file):
     audioobj=gTTS(text=text,lang=language,slow=False)
@@ -25,11 +24,9 @@ def text_to_speech_with_elevenlabs(input_text, language, output_file):
 
 
 
-# input_text="hey , how are you feeling today, क्या मैं आपकी कुछ मदद कर सकती हूँ?"
 
 import subprocess
 from pydub import AudioSegment
-# from playsound import playsound
 def text_to_speech(input_text, language, output_file):
     if os.path.exists("response.mp3"):
         os.remove("response.mp3")
@@ -42,10 +39,6 @@ def text_to_speech(input_text, language, output_file):
         audio.export(wav_file, format="wav")
         subprocess.run(['powershell', '-c', f'(New-Object Media.SoundPlayer "{wav_file}").PlaySync();'])
         
-        # subprocess.run(['powershell', '-c', f'(New-Object Media.SoundPlayer \"{output_file}\").PlaySync();'])
-        # playsound(output_file)
-        # subprocess.run(['powershell', '-c', f'Start-Process wmplayer "{output_file}" -Wait'])
-        # Convert MP3 to WAV
        
   
     elif language=="en":
@@ -56,6 +49,5 @@ def text_to_speech(input_text, language, output_file):
         subprocess.run(['powershell', '-c', f'(New-Object Media.SoundPlayer "{wav_file}").PlaySync();'])
         
     
-# text_to_speech(input_text, language, "assistant.mp3")
 
 
