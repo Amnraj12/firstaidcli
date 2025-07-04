@@ -4,7 +4,7 @@
 
 ## 🌟 Introduction
 
-**FirstAidCLI** is a next-generation, AI-powered medical assistant that delivers instant, context-aware first-aid guidance through both an intuitive graphical user interface (GUI) and a robust command-line interface (CLI). Developed during a high-pressure hackathon, this project demonstrates advanced software engineering, rapid prototyping, and seamless integration of state-of-the-art AI models for real-world healthcare scenarios. FirstAidCLI leverages multimodal inputs—combining user speech and medical images—to generate highly accurate, actionable responses, making it a showcase of modern AI, UX, and system design.
+**FirstAidCLI** is a next-generation, AI-powered medical assistant that delivers instant, context-aware first-aid guidance through both an intuitive graphical user interface (GUI) and a robust command-line interface (CLI). Developed during a high-pressure hackathon, this project demonstrates advanced software engineering, rapid prototyping, and seamless integration of state-of-the-art AI models for real-world healthcare scenarios. FirstAidCLI leverages multimodal inputs, combining user speech and medical images to generate highly accurate, actionable responses, making it a showcase of modern AI, UX, and system design.
 
 ---
 
@@ -79,8 +79,8 @@ FirstAidCLI is built with a modern, modular Python stack and leverages best-in-c
 
 1. **Clone the Repository**
     ```sh
-    git clone <your-repo-url>
-    cd Firstaidcli/firstaidcli
+    git clone https://github.com/Amnraj12/FirstAid-AI-Assistant.git
+    cd FirstAid-AI-Assistant
     ```
 
 2. **Set Up the Python Environment**
