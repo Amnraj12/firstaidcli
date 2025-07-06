@@ -70,7 +70,8 @@ FirstAidCLI is built with a modern, modular Python stack and leverages best-in-c
 > **Important:**  
 > Both Llama models used in this project (`llama-3.2-90b-vision-preview` and `llama-3.2-11b-vision-preview`) have been officially decommissioned and are no longer accessible.  
 > Additionally, other models such as certain versions of Gemma or DeepSeek may also be deprecated or unavailable.  
-> To ensure continued functionality, you must update or replace these models with currently supported alternatives.  
+> To ensure continued functionality, you must update or replace these models with currently supported alternatives.
+> This can be achieved by simply updating references to the deprecated models. 
 > Running the app with deprecated models will result in errors or degraded performance.
 
 ---
@@ -202,4 +203,3 @@ For questions or collaborations, reach out via [amnraj125@gmail.com](mailto:amnr
 ## 🏆 Hackathon Note
 
 This project was conceived, designed, and implemented during a fast-paced hackathon, under significant time constraints. The result is a production-grade, feature-rich application that demonstrates rapid prototyping, advanced AI integration, and a relentless focus on user experience and reliability.  
-FirstAidCLI is a testament to what can be achieved with modern tools, teamwork, and a passion for solving real-world problems
