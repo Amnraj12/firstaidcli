@@ -1,10 +1,10 @@
-# FirstAidCLI
+# FirstAidAI
 
 ---
 
 ## 🌟 Introduction
 
-**FirstAidCLI** is a next-generation, AI-powered medical assistant that delivers instant, context-aware first-aid guidance through both an intuitive graphical user interface (GUI) and a robust command-line interface (CLI). Developed during a high-pressure hackathon, this project demonstrates advanced software engineering, rapid prototyping, and seamless integration of state-of-the-art AI models for real-world healthcare scenarios. FirstAidCLI leverages multimodal inputs, combining user speech and medical images to generate highly accurate, actionable responses, making it a showcase of modern AI, UX, and system design.
+**FirstAidAI** is a next-generation, AI-powered medical assistant that delivers instant, context-aware first-aid guidance through both an intuitive graphical user interface (GUI) and a robust command-line interface (CLI). Developed during a high-pressure hackathon, this project demonstrates advanced software engineering, rapid prototyping, and seamless integration of state-of-the-art AI models for real-world healthcare scenarios. FirstAidCLI leverages multimodal inputs, combining user speech and medical images to generate highly accurate, actionable responses, making it a showcase of modern AI, UX, and system design.
 
 ---
 
